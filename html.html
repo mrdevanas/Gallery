@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+
+  .in{
+ background-color: #000000;
+ font-size: xx-large;
+ font-family: cursive;
+ color: rgb(0, 169, 42);
+ border-radius: 20px;
+ cursor: pointer;
+  }
+  
+  .in:hover{
+ background-color: #000000;
+ font-size: xx-large;
+ font-family: cursive;
+ cursor: pointer;
+ color: rgb(0, 206, 100);
+ border-radius: 20px;
+ width: 200px;
+  }
+  
+   </style>
+</head>
+<body style="background-color: rgb(173, 255, 234);"> <center>
+    <span style="text-align: center;" class="in"> Info For iphone 14</span>
+    <br><br> <br><br>
+    
+    <div style="border:  5px  dotted rgba(139, 139, 139, 0.684);  border-radius: 30px;"  >
+  <br> <br>
+     <a href="https://pngimg.com/uploads/iphone_14/iphone_14_PNG21.png" style="text-decoration: none;" id="sc">   <img src="https://pngimg.com/uploads/iphone_14/iphone_14_PNG21.png" alt="img" width="200px" height="200px"  style="border-radius: 20px ; background-color: rgba(255, 0, 0, 0.703); justify-content: space-around;  position: relative; left: 60px;" id="im">
+      </a> 
+      <button style="position: relative; left: 56px; bottom: 90px; cursor: pointer; background-color: #00945e;
+      color: white;   border-radius: 50%; border: white; width: 50px; height: 50px;" onclick="n()"       onmouseover="this.style.backgroundColor='gray';"       onmouseout="this.style.backgroundColor='#04AA6D';"> > </button>
+      <button style="position: relative; right: 248px;  bottom: 90px; cursor: pointer; background-color: #777777;
+      color: white;   border-radius: 50%; border: white; width: 50px; height: 50px;"       onmouseover="this.style.backgroundColor='#0f9446';"       onmouseout="this.style.backgroundColor='gray';" onclick="b()"> < </button>
+
+     <br><br>
+    <span id="hi" style="border: dotted 2px rgb(0, 179, 158); background-color: rgb(160, 255, 249); font-size: 17px; font-family: cursive; ">
+iphone 14
+    </span>
+    <br>  <br>  
+    
+    <button onclick="p()" style="cursor: pointer; background-color: rgb(15, 152, 0); border-radius: 20px; width: 120px ; height: 30px; font-size: 20px;"> Show more</button>
+<br><br>
+<br>
+    <button onclick="r()" style="cursor: pointer; background-color: red; border-radius: 20px; width: 120px ; height: 30px; font-size: 20px">  Show less</button>
+ <br>
+
+</center></div>
+<script>   
+
+function p() {
+
+document.getElementById("hi").innerHTML =
+" <span style=color:red> iphone 14 </span> <br> <br>  <span style='color:black'>" + "CUPERTINO, CALIFORNIA Apple today introduced iPhone 14 and iPhone 14 Plus, featuring two sizes — 6.1 inches and 6.7 inches — in a sophisticated design with impressive camera upgrades and groundbreaking new safety capabilities. iPhone 14 and iPhone 14 Plus take stunning photos and video with a powerful camera system featuring new Main and front TrueDepth cameras, the Ultra Wide camera for unique perspectives, and Photonic Engine — an enhanced image pipeline. Both models include the A15 Bionic chip with a 5-core GPU, which offers incredible performance and efficiency for demanding workloads, and is designed with privacy and security built in. iPhone 14 and iPhone 14 Plus introduce critical safety capabilities such as Crash Detection and Emergency SOS via satellite, a first in the industry. And with amazing battery life, industry-leading durability features, and super-fast 5G, this iPhone lineup is more advanced than ever before. iPhone 14 and iPhone 14 Plus will be available in midnight, blue, starlight, purple, and (PRODUCT)RED1 finishes. Pre-orders begin Friday, September 9, with availability for iPhone 14 beginning Friday, September 16, and availability for iPhone 14 Plus beginning Friday, October 7."
+   + "</span>"
+
+
+}
+
+
+function r() {
+    document.getElementById("hi").innerHTML =
+"<span style=color:black> iphone 14 </span>"
+
+}
+
+
+function n() {
+    document.getElementById("sc").href = "https://pngimg.com/uploads/iphone_14/iphone_14_PNG9.png";
+
+    document.getElementById("im").src = "https://pngimg.com/uploads/iphone_14/iphone_14_PNG9.png";
+}
+function b() {
+    document.getElementById("sc").href = "https://pngimg.com/uploads/iphone_14/iphone_14_PNG21.png";
+
+    document.getElementById("im").src = "https://pngimg.com/uploads/iphone_14/iphone_14_PNG21.png";
+}
+</script>
+</body>
+</html>
